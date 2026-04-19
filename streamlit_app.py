@@ -81,6 +81,13 @@ st.markdown(f"""
         color: #000 !important;
     }}
     
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] h4 {{
+        color: #000 !important;
+        font-weight: 700 !important;
+    }}
+    
     /* Botões */
     .stButton > button {{
         background-color: {CORES['azul_claro']};
@@ -165,9 +172,9 @@ st.markdown(f"""
 with st.sidebar:
     st.markdown(f"""
         <div style="padding: 20px; text-align: center; border-bottom: 2px solid {CORES['amarelo']};">
-            <h1 style="color: {CORES['azul_principal']}; margin: 0;">🏗️</h1>
-            <h2 style="color: {CORES['azul_principal']}; margin: 10px 0 0 0; font-size: 1.5em;">Construscanner</h2>
-            <p style="color: {CORES['azul_principal']}; margin: 5px 0 0 0; font-size: 0.9em;">Sistema Inteligente de Monitoramento</p>
+            <h1 style="color: #000; margin: 0;">🏗️</h1>
+            <h2 style="color: #000; margin: 10px 0 0 0; font-size: 1.5em; font-weight: 700;">Construscanner</h2>
+            <p style="color: #000; margin: 5px 0 0 0; font-size: 0.9em; font-weight: 600;">Sistema Inteligente de Monitoramento</p>
         </div>
     """, unsafe_allow_html=True)
     
