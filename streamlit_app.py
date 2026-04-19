@@ -14,8 +14,8 @@ st.set_page_config(
 
 # Cores da marca Construscanner
 CORES = {
-    "azul_principal": "#003D7A",
-    "azul_claro": "#1BA3D6",
+    "azul_principal": "#5A5A5A",
+    "azul_claro": "#999999",
     "verde": "#7CB342",
     "amarelo": "#FFC107",
     "turquesa": "#00BCD4",
