@@ -73,12 +73,12 @@ st.markdown(f"""
     }}
     
     [data-testid="stSidebar"] label {{
-        color: {CORES['branco']} !important;
+        color: #000 !important;
         font-weight: 600;
     }}
     
     [data-testid="stSidebar"] p {{
-        color: {CORES['branco']} !important;
+        color: #000 !important;
     }}
     
     /* Botões */
@@ -165,9 +165,9 @@ st.markdown(f"""
 with st.sidebar:
     st.markdown(f"""
         <div style="padding: 20px; text-align: center; border-bottom: 2px solid {CORES['amarelo']};">
-            <h1 style="color: {CORES['branco']}; margin: 0;">🏗️</h1>
-            <h2 style="color: {CORES['branco']}; margin: 10px 0 0 0; font-size: 1.5em;">Construscanner</h2>
-            <p style="color: {CORES['amarelo']}; margin: 5px 0 0 0; font-size: 0.9em;">Sistema Inteligente de Monitoramento</p>
+            <h1 style="color: {CORES['azul_principal']}; margin: 0;">🏗️</h1>
+            <h2 style="color: {CORES['azul_principal']}; margin: 10px 0 0 0; font-size: 1.5em;">Construscanner</h2>
+            <p style="color: {CORES['azul_principal']}; margin: 5px 0 0 0; font-size: 0.9em;">Sistema Inteligente de Monitoramento</p>
         </div>
     """, unsafe_allow_html=True)
     
@@ -540,15 +540,8 @@ st.markdown(f"""
     border-radius: 10px;
     text-align: center;
 ">
-    <h3 style="color: {CORES['amarelo']}; margin: 0;">📊 Construscanner</h3>
-    <p style="margin: 10px 0; opacity: 0.9;">Sistema Inteligente de Monitoramento de Obras</p>
-    <p style="margin: 0; font-size: 0.9em; opacity: 0.7;">© 2024 Equipe Construscanner | Engenharia & IA</p>
-</div>
-""", unsafe_allow_html=True)
-st.markdown("""
-<div style="text-align: center; padding: 20px; color: #1a1a1a; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p><strong>📊 Construscanner</strong> - Sistema Inteligente de Monitoramento</p>
-    <small style="color: #1a1a1a;">Monitorando e otimizando canteiros de obras através de IA, sensores e conectividade avançada.</small><br>
-    <small style="color: #1a1a1a;">© 2024 Equipe Construscanner | Engenharia & IA</small>
+    <h3 style="color: {CORES['branco']}; margin: 0;">📊 Construscanner</h3>
+    <p style="margin: 10px 0; opacity: 0.9; color: {CORES['branco']};">Sistema Inteligente de Monitoramento de Obras</p>
+    <p style="margin: 0; font-size: 0.9em; opacity: 0.7; color: {CORES['branco']};">© 2024 Equipe Construscanner | Engenharia & IA</p>
 </div>
 """, unsafe_allow_html=True)
